@@ -1,0 +1,35 @@
+body {
+    font-size: 100%;
+}
+
+p {
+    font-family: system-ui, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+}
+
+div.profile {
+    max-width: 80em;
+    margin: auto;
+}
+
+div.column-list {
+    float: left;
+    max-width: 80em;
+    padding: 1em;
+}
