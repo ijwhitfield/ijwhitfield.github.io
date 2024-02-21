@@ -3,13 +3,14 @@ layout: default
 title: Ian Whitfield
 ---
 
-<div class="profile">
-  <img style="float:left; width:10em; padding:1em;" src="assets/images/profile.png" alt="A picture of me!"/>
+<div>
+  <img class="profile" src="assets/images/profile.png" alt="A picture of me!"/>
   <h1 style="margin:0;">Ian Whitfield</h1>
-  <p><b>Seeking mastery of computers and solving hard problems.</b></p>
-  <p>Always been interested in going deep. Obsessed with finding designs that make real progress. Keenly paying attention to how great projects are managed. Priority one is pragmatism.</p>
+  <p>Seeking mastery of computer programming as a tool. Trying to find pragmatic designs that make real progress. Keenly paying attention to how great projects are managed.</p>
+  <a href="https://github.com/opossum-now">Github</a>
+  |
+  <a href="assets/pdfs/resume.pdf">Resume</a>
 </div>
 {% for post in site.posts %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<h2>{{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></h2>
 {% endfor %}
-
