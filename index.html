@@ -7,10 +7,22 @@ title: Ian Whitfield
   <img class="profile" src="assets/images/profile.png" alt="A picture of me!"/>
   <h1 style="margin:0;">Ian Whitfield</h1>
   <p>Seeking mastery of computer programming as a tool. Trying to find pragmatic designs that make real progress. Keenly paying attention to how great projects are managed.</p>
-  <a href="https://github.com/opossum-now">Github</a>
-  |
-  <a href="assets/pdfs/resume.pdf">Resume</a>
+  <h2 style="clear:left; text-align:center;">
+    <a href="https://github.com/opossum-now">Github</a>
+    |
+    <a href="assets/pdfs/resume.pdf">Resume</a>
+  </h2>
 </div>
-{% for post in site.posts %}
-<h2>{{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></h2>
-{% endfor %}
+<hr>
+<div>
+  <h2>What am I doing?</h2>
+  <p>After graduating, I made a game in a week with a friend for a game jam. It ended up winning (!), you can play it <a href="https://zonkable.itch.io/alient">here</a>. I'm now working on building a portfolio (including this website) and developing strong, in-demand skills.<p>
+</div>
+{% if site.posts.size > 0 %}
+<div>
+  <h2>Posts</h2>
+  {% for post in site.posts %}
+  <h3>{{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></h3>
+  {% endfor %}
+</div>
+{% endif %}

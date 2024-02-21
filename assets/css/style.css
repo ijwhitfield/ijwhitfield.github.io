@@ -23,7 +23,15 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: "Roboto Slab", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
 }
 
 img.profile {
