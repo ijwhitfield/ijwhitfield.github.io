@@ -4,27 +4,12 @@ title: Ian Whitfield
 ---
 
 <div class="profile">
-  <img style="float:left;" src="assets/images/profile.png" alt="A picture of me!"/>
-  <h1>Ian Whitfield</h1>
+  <img style="float:left; width:10em; padding:1em;" src="assets/images/profile.png" alt="A picture of me!"/>
+  <h1 style="margin:0;">Ian Whitfield</h1>
   <p><b>Seeking mastery of computers and solving hard problems.</b></p>
   <p>Always been interested in going deep. Obsessed with finding designs that make real progress. Keenly paying attention to how great projects are managed. Priority one is pragmatism.</p>
 </div>
-<div class="column-list">
-  <h1>Thoughts</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-<div class="column-list">
-  <h1>Projects</h1>
-  <ul>
-    <li>
-      <h2><a href="project.html">test project</a></h2>
-    </li>
-  </ul>
-</div>
+{% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{% endfor %}
 

@@ -24,12 +24,17 @@ h2 {
 }
 
 div.profile {
-    max-width: 80em;
+    max-width: 40em;
     margin: auto;
+    padding-top: 1em;
 }
 
-div.column-list {
+img.profile {
     float: left;
-    max-width: 80em;
-    padding: 1em;
+    height: 10em;
+    margin: 1em;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
 }
