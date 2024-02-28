@@ -8,7 +8,7 @@ body {
 p {
     font-family: system-ui, sans-serif;
     text-align: justify;
-    font-size: 12pt;
+    font-size: 1em;
 }
 
 h1 {
