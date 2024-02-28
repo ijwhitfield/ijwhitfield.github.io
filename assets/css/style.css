@@ -2,12 +2,13 @@ body {
     font-size: 100%;
     max-width: 40em;
     margin: auto;
-    padding: 5%;
+    padding: 1em;
 }
 
 p {
     font-family: system-ui, sans-serif;
     text-align: justify;
+    font-size: 12pt;
 }
 
 h1 {
